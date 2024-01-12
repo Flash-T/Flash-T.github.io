@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+strong {
+    color: red;
+    font-style: bolder;
+}
+
+fieldset {
+    width: 260px;
+    height: 186px;
+    padding: 0px 50px;
+    background-color: #92b3cf;
+}
+
+#button {
+    margin: 10px 20px;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    /* 让表单宽度占据父容器的100% */
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div {
+    position: fixed;
+    width: 100% height:100%;
+    margin: 0 auto;
+}
+
+legend {
+    color: green;
+    /* 使用十六进制颜色码，也可以使用颜色名称或RGB值 */
+    font-weight: bold;
+    font-size: 24px;
+}
+
